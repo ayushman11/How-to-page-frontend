@@ -10,6 +10,7 @@ Grey: E8F0F2 -> DDDDDD
 
 html,body
 {
+  scroll-behavior: smooth;
     width: 100%;
     height: 100%;
     margin: 0px;
