@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap");
+
+/* 
+COLORS:
+
+NavBar: #005792
+Grey: E8F0F2 -> DDDDDD
+
+*/
+
+.navbar {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+
+  background-color: #005792;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  color: white;
+}
+
+.navmar {
+  margin-right: 6%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+section {
+    margin: 0;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #777;
+  line-height: 1.7;
+  box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
+}
+
+.primary-header {
+    position: relative;
+    height: 60vh;
+    background-image: linear-gradient(to right, #E8F0F2, #DDDDDD );
+    margin: 0 auto;
+}
+
+.heading-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.primary-heading {
+    font-weight: 500;
+    color: #005792;
+}
+
+.card {
+    cursor: default;
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+    transition: .5s;
+}
+
+.step {
+    position: relative;
+    background-color: #005792;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+    min-height: fit-content;
+    height: 90vh;
+}
+
+.row {
+    height: 100%;
+}
+
+.step-content {
+    text-align: left;
+}
+
+.step-img {
+    height: 200px;
+}
